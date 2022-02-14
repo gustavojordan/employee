@@ -5,6 +5,7 @@
 # Commands to execute on your machine
 
 ```sh
+cp .env.testing .env
 docker-compose build
 docker-compose up -d
 docker exec -it employee-app bash -c "sudo -u devuser /bin/bash"
